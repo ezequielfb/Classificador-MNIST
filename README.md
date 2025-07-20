@@ -3,7 +3,7 @@
 Projeto completo, desenvolvido no Google Colab, para construir, treinar e avaliar uma Rede Neural capaz de classificar dígitos manuscritos (0 a 9) do famoso dataset MNIST.
 
 ## 📋 Tabela de Conteúdos
-* [Sobre o Projeto](#-sobre-o-projeto)
+* [Sobre o Projeto](##-sobre-o-projeto)
 * [ Ferramentas Utilizadas](#️-ferramentas-utilizadas)
 * [ Como Executar o Projeto](#-como-executar-o-projeto)
 * [ Resultados](#-resultados)
