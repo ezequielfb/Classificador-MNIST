@@ -4,20 +4,19 @@ Projeto completo, desenvolvido no Google Colab, para construir, treinar e avalia
 
 ## 📋 Tabela de Conteúdos
 * [Sobre o Projeto](#-sobre-o-projeto)
-* [🛠️ Ferramentas Utilizadas](#️-ferramentas-utilizadas)
-* [🚀 Como Executar o Projeto](#-como-executar-o-projeto)
-* [📊 Resultados](#-resultados)
-* [✍️ Autor](#️-autor)
+* [ Ferramentas Utilizadas](#️-ferramentas-utilizadas)
+* [ Como Executar o Projeto](#-como-executar-o-projeto)
+* [ Resultados](#-resultados)
 
-## 📖 Sobre o Projeto
+## Sobre o Projeto
 O objetivo central é demonstrar um fluxo de trabalho de ponta a ponta em Machine Learning: desde a preparação dos dados e construção do modelo, até o treinamento e a avaliação de sua performance. O modelo é uma Rede Neural simples, mas eficaz, que aprende a reconhecer padrões em imagens de 28x28 pixels para fazer suas classificações.
 
-## 🛠️ Ferramentas Utilizadas
+## Ferramentas Utilizadas
 * **Ambiente de Desenvolvimento:** `Google Colab`
 * **Biblioteca de Machine Learning:** `TensorFlow` com a API `Keras`
 * **Bibliotecas de Apoio:** `NumPy` para manipulação de dados e `Matplotlib` para visualização.
 
-## 🚀 Como Executar o Projeto
+## Como Executar o Projeto
 Abra o notebook (`.ipynb`) no [Google Colab](https://colab.research.google.com/) e siga os passos abaixo, executando cada célula de código em sequência.
 
 ### Passo 1: Ativar o Acelerador de Hardware (GPU)
@@ -99,7 +98,7 @@ print("Iniciando o treinamento...")
 history = model.fit(x_train, y_train, epochs=5, validation_data=(x_test, y_test))
 print("Treinamento finalizado!")
 ```
-📊 Resultados
+## Resultados
 Passo 8: Avaliar a Acurácia
 Após o treinamento, usamos o conjunto de teste (imagens que o modelo nunca viu) para verificar sua real capacidade de generalização.
 ```
