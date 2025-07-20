@@ -1,4 +1,4 @@
-# 🧠 Classificador de Dígitos MNIST com TensorFlow/Keras
+# Classificador de Dígitos MNIST com TensorFlow/Keras
 
 Projeto completo, desenvolvido no Google Colab, para construir, treinar e avaliar uma Rede Neural capaz de classificar dígitos manuscritos (0 a 9) do famoso dataset MNIST.
 
@@ -37,8 +37,6 @@ O Keras facilita o acesso ao dataset MNIST, que já vem dividido em conjuntos de
 # Carrega o dataset e já o divide em partes de treino e de teste
 (x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
 
-print(f"Temos {x_train.shape[0]} imagens para treino e {x_test.shape[0]} para teste.")
-print(f"Cada imagem tem o tamanho de {x_train.shape[1]}x{x_train.shape[2]} pixels.")
 ```
 Passo 4: Pré-processamento e Visualização dos Dados
 Normalizamos os valores dos pixels das imagens (de 0-255 para 0-1) para melhorar a performance do treinamento.
