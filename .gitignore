@@ -1,0 +1,32 @@
+# Ignorar o ambiente virtual
+venv/
+.venv/
+
+# Para ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignora arquivos de cache de notebooks Jupyter/Colab
+.ipynb_checkpoints/
+
+# Ignora arquivos de configuração de IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignora arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+
+# Ignora arquivos de build e distribuição do PyInstaller
+/dist/
+/build/
+*.spec
+
+# Ignora arquivos sensíveis
+.env
+*.env
+credentials.json
